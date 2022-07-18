@@ -1,0 +1,363 @@
+/* MAIN */
+.main__bg {
+    transform: translate(50%, 0) scale(.9);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.main__bg._active {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+}
+
+.main-title {
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.main-title._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.main-text {
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.main-text._active {
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: all .5s ease 0.3s;
+}
+
+.main-slider {
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.main-slider._active {
+    opacity: 1;
+    transition: all .5s ease 0.4s;
+}
+
+
+
+/* ABOUT */
+.about-food {
+    transform: translate(0, -50%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.about-food._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.about-kivi {
+    transform: translate(0, -50%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.about-kivi._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.about-lemon {
+    transform: translate(-120%, 0);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.about-lemon._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.about-spearmint {
+    transform: translate(-120%, 0);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.about-spearmint._active {
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: all .5s ease;
+}
+
+.card {
+    transform-style: preserve-3d;
+    transform: rotateY(90deg);
+    transition: transform .5s ease 0.3s;
+}
+
+.card._active {
+    transform: rotateY(0deg);
+    transition: transform .5s ease 0.3s;
+}
+
+.about-info__title {
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.about-info__title._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.about-info__text p {
+    transform: translate(0, 120%);
+    opacity: 0;
+    transition: all .5s ease 0;
+}
+
+.about-info__text._active p:nth-child(1) {
+    transition: all .5s ease 0s;
+}
+
+.about-info__text._active p:nth-child(2) {
+    transition: all .5s ease 0.4s;
+}
+
+.about-info__text._active p {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.about-info__btn {
+    opacity: 0;
+    transform: scale(.8);
+    transition: all .5s ease;
+}
+
+.about-info__btn._active {
+    opacity: 1;
+    transform: scale(1);
+    transition: all .5s ease 0.5s;
+}
+
+
+
+/* FOOD RATION */
+.ananas {
+    transform: translate(0, -50%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.ananas._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.red_fish {
+    transform: translate(0, -50%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.red_fish._active {
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: all .5s ease 0.3s;
+}
+
+.food__ration-sudtitle {
+    transform: translate(100%, 0);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.food__ration-sudtitle._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+.catalog_nav {
+    transform: translate(100%, 0);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.catalog_nav._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.catalog .catalog-item {
+    transform: translate(-100%, 0) scale(1);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.catalog._active .catalog-item:nth-child(1) {
+    transition: all .5s ease 0s;
+}
+
+.catalog._active .catalog-item:nth-child(2) {
+    transition: all .5s ease .3s;
+}
+
+.catalog._active .catalog-item:nth-child(3) {
+    transition: all .5s ease .6s;
+}
+
+.catalog._active .catalog-item:nth-child(4) {
+    transition: all .5s ease .2s;
+}
+
+.catalog._active .catalog-item:nth-child(5) {
+    transition: all .5s ease .5s;
+}
+
+.catalog._active .catalog-item:nth-child(6) {
+    transition: all .5s ease .8s;
+}
+
+.catalog._active .catalog-item:nth-child(7) {
+    transition: all .5s ease .6s;
+}
+
+.catalog._active .catalog-item:nth-child(8) {
+    transition: all .5s ease .9s;
+}
+
+.catalog._active .catalog-item:nth-child(9) {
+    transition: all .5s ease .12s;
+}
+
+.catalog._active .catalog-item {
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: all .3s ease;
+}
+
+
+
+/* DELIVERY */
+.mango {
+    transform: translate(0, -50%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.mango._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.delivery_bar {
+    transform: translate(-50%, 0);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.delivery_bar._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+
+/* REVIEWS */
+.reviews_title {
+    transform: translate(0, 50%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.reviews_title._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.reviews_slider {
+    transform: translate(-50%, 0);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.reviews_slider._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.reviews_btn {
+    transform: translate(100%, 0);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.reviews_btn._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+
+
+/* CONTACTS */
+.contacts_el img {
+    transform: translate(0, -50%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.contacts_el._active img {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.contacts-title {
+    transform: translate(100%, 0);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.contacts-title._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+.contact-phone {
+    transform: translate(0, 100%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.contact-phone._active {
+    transform: translate(0, 0);
+    opacity: 1;
+    transition: all .5s ease 0.3s;
+}
+
+.contact-email {
+    transform: translate(0, -100%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.contact-email._active {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+/* FOOTER */
+.footer-logo img {
+    transform: translate(0%, -50%);
+    opacity: 0;
+    transition: all .5s ease;
+}
+
+.footer-logo._active img {
+    transform: translate(0, 0);
+    opacity: 1;
+}
